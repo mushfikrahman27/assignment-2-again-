@@ -38,7 +38,7 @@ body {
     display: flex;
     list-style: none;
     gap: 32px;
-    font-size: 12px;
+    font-size: 14px;
  
  }
   .nav-list a{
@@ -54,7 +54,7 @@ body {
   text-align: center;
   text-decoration: none;
   display: flex;
-  gap: 10px;
+  gap: 8px;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
@@ -183,11 +183,14 @@ body {
     padding:  5px 20px  5px 20px;
     border: none;
     border-radius: 25px;
-
+     font-size: 16px;
+color: #FFFFFF;
+font-weight: 600px;
 }
 .banner-btn .sms{
-   
+   font-size: 16px;
     color: #00ff88;
+    font-weight: 600px;
       border: 1px solid #00ff88 ;
       background-color: #2A186C;
      display: flex;            
@@ -228,14 +231,14 @@ body {
 
 .about-container-content h1{
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 600;
     color: #FFFFFF;
     padding-bottom: 12px;
 }
 
 .about-container-content p{
-    font-size: 14px;
-      font-weight: 200;
+    font-size: 16px;
+      font-weight: 400;
     color: #FFFFFF;
     opacity: 0.8;
     line-height: 20px;
@@ -245,8 +248,7 @@ body {
 .about-hr {
      max-width: 100%;         
      height: 1px;            
-     background-color: #412567;  
-              
+     background-color: #412567;           
     border: none;           
     margin: 0 auto;         
 }
@@ -325,7 +327,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 700px;
 }
 .choose-grid{
@@ -492,8 +494,9 @@ body {
 }
 
 .ft-header h2 {
-  color: #fff;
-  font-size: 32px;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700px;
   text-align: center;
   margin-bottom: 60px;
 }
@@ -599,8 +602,9 @@ body {
   object-fit: cover;
 } */
 .ft-host-box h3 {
-  color: #fff;
-  font-size: 28px;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700px;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -879,7 +883,12 @@ body {
     height: auto;
     padding: 60px 20px;
   }
-
+.choose-header{
+    
+    color: #FFFFFF;
+    font-size:20px;
+    font-weight: 700px;
+}
   .choose-grid {
     grid-template-columns: 1fr;
     height: auto;
@@ -896,16 +905,34 @@ body {
   .featured-episodes {
     flex-direction: column;
   }
+  .ft-header h2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
 
   .ft-box-one,
   .ft-box-two,
   .ft-box-three {
     width: 100%;
   }
+
+
  .ft-host-box {
     width: 100%;
     padding: 30px 20px;
   }
+
+.ft-host-box h3 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700px;
+  text-align: center;
+   
+}
 
   .ft-host-content {
     flex-direction: column;
